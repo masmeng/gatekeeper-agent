@@ -1,0 +1,15 @@
+# Secrets — never commit.
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output.
+node_modules/
+dist/
+
+# Runtime state (used-proof replay store). Regenerated at runtime.
+data/
+
+# OS / editor noise.
+.DS_Store
+*.log
